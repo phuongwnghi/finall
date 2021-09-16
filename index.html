@@ -1,0 +1,359 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/style02.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/site.css">
+<!--	back to top-->
+	  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="css/style03.css">
+<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	</head>
+<body>
+	<div class="container1">
+		
+				<div class="header1">
+			<div class="logo">
+			<img src="img/3549453.png" width="80px;">
+			
+			</div>
+			<div id="menu1">
+				<button class="btn1"><a href="#tc">Home</a></button>
+			  <button class="btn1"><a href="#pj">Our projects</a></button>
+			  <button class="btn1"><a href="#ac">Achievement</a></button>
+				<button class="btn1"><a href="#ot">Our team</a></button>
+			  <button class="btn1"><a href="#lh">Contact</a></button>
+			</div>
+			</div>
+<!--		Noi dung-->
+		<div class="main" id="tc">
+		<div class="slide">
+  <img class="mySlides" src="img/spacejoy-WQ35C1ZqCPk-unsplash.jpg" style="width:100%">
+  <img class="mySlides" src="img/spacejoy-XM-miHibz64-unsplash.jpg" style="width:100%">
+  <img class="mySlides" src="img/spacejoy-lK1YVtpTE8E-unsplash.jpg" style="width:100%">
+
+  <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+			</div>       
+		<div class="member1" id="pj">
+			<center><h2>Our projects</h2></center>
+		</div>
+		<!-- Images used to open the lightbox -->
+<div class="row1">
+  <div class="column1">
+    <img src="img/spacejoy-p4yWCNA2_6Q-unsplash.jpg" width="100%" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column1">
+    <img src="img/spacejoy-nEtpvJjnPVo-unsplash.jpg" width="100%" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column1">
+    <img src="img/spacejoy-sh6Aj176NAQ-unsplash.jpg" width="100%" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column1">
+    <img src="img/spacejoy-OlFHzNjg9kY-unsplash.jpg" width="100%" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides1">
+      <div class="numbertext">1 / 4</div>
+      <img src="img/spacejoy-p4yWCNA2_6Q-unsplash.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+      <div class="numbertext">2 / 4</div>
+      <img src="img/spacejoy-nEtpvJjnPVo-unsplash.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+      <div class="numbertext">3 / 4</div>
+      <img src="img/spacejoy-sh6Aj176NAQ-unsplash.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides1">
+      <div class="numbertext">4 / 4</div>
+      <img src="img/spacejoy-OlFHzNjg9kY-unsplash.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column1">
+      <img class="demo" src="img/spacejoy-p4yWCNA2_6Q-unsplash.jpg" style="width:90%" onclick="currentSlide(1)" alt="Living Room">
+    </div>
+
+    <div class="column1">
+      <img class="demo" src="img/spacejoy-nEtpvJjnPVo-unsplash.jpg" style="width:90%" onclick="currentSlide(2)" alt="Bedroom">
+    </div>
+
+    <div class="column1">
+      <img class="demo" src="img/spacejoy-sh6Aj176NAQ-unsplash.jpg" style="width:90%" onclick="currentSlide(3)" alt="Room">
+    </div>
+
+    <div class="column1">
+      <img class="demo" src="img/spacejoy-OlFHzNjg9kY-unsplash.jpg" style="width:90%" onclick="currentSlide(4)" alt="Living Room">
+    </div>
+  </div>
+</div>
+		<!-- partial:index.partial.html -->
+		<div class="mainnumber" id="ac">
+		<div class="number">
+			<div class="numbertren">
+			<div class="col">
+			  <div class="counter-number" id="num-1">0+</div>
+			  <div class="counter-title">  <strong>Completed</strong> rojects</div>
+			</div>
+			<div class="col">
+			  <div class="counter-number" id="num-2">0+</div>
+			  <div class="counter-title">  <strong>Created</strong> html5 banners</div>
+			</div>
+				</div>
+			<div class="numberduoi">
+			<div class="col">
+			  <div class="counter-number" id="num-3">0+</div>
+			  <div class="counter-title">  <strong>Completed</strong> orders</div>
+			</div>
+			<div class="col">
+			  <div class="counter-number" id="num-4">0+</div>
+			  <div class="counter-title">  <strong>Drunk</strong> cups of coffee</div>
+			</div>
+				</div>
+        </div>
+		<div class="number1">
+			<div class="text-box2 col-6 ptb-6" id="info">
+				<h2>It’s time to plan your next house.</h2>
+				<p>Take in the beauty of it all – wild rivers, scenic bikeways, mountain vistas, abundant farmlands – and show your love for the people who make this place so special.</p>
+			</div>
+		</div>	
+			</div>
+<!--		Team member-->
+		<div class="member1" id="ot">
+			<center><h2>Our team&nbsp; &nbsp;member</h2>
+			</center>
+		</div>	
+		<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="member"><img src="img/laura-chouette-nkWnc-W_GP8-unsplash.jpg" alt="Jane" style="width:100%"></div>
+      <div class="container">
+        <h3>Jane Doe</h3>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <center><button class="button2">Contact</button></center>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="member"><img src="img/linkedin-sales-solutions-pAtA8xe_iVM-unsplash.jpg" alt="Mike" style="width:100%"></div>
+      <div class="container">
+        <h3>Mike Ross</h3>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <center><button class="button2">Contact</button></center>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="member"><img src="img/zahir-namane-hwc7eIQiTCE-unsplash.jpg" alt="John" style="width:100%"></div>
+      <div class="container">
+        <h3>John Doe</h3>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <center><button class="button2">Contact</button></center>
+      </div>
+    </div>
+  </div>
+</div>
+	<div class="box01" id="lh" ptb-7>
+		<center><h3>Get more infomation</h3></center>
+		<center><p>Receive latest news and blogs from us.</p></center>
+		<form id="sub">
+			<table border="0">
+				<tr>
+					<td><input type="text" name="First Name" placeholder="First Name"></td>
+					<td><input type="text" name="Last Name" placeholder="Last Name"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="email" name="Email" placeholder="Email"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="checkbox" name="Privacy"><span>Check this box if you accept to let us email you the latest new.</span></td>
+				</tr>
+				<tr>
+					<td colspan="2"><button id="button2" type="button">Submit</button></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+		 <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container5">
+        <div class="row">
+          <div class="col-sm-12 prl-3">
+            <h6>About us</h6>
+            <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+          </div>
+			<br>
+          <div class="col-6 prl-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+              <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+              <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+              <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 prl-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+		  <br>
+        <hr>
+		  <br>
+      </div>
+      <div class="container4">
+        <div class="row">
+          <div class="col-8 prl-3">
+            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+         <a href="#">Scanfcode</a>.
+            </p>
+          </div>
+
+          <div class="col-4 prl-3">
+            <ul class="social-icons">
+              <li><a class="facebook" href="https://www.facebook.com/phuongwnghi/"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+		  
+      </div>
+</footer>
+	<a href="#" class="cd-top text-replace js-cd-top">Top</a>
+	</div>
+	<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<!--	lightbox-->
+	<script>
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<!--	wow-->
+	<script src="js/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+<!--back to top-->
+		<script src="js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+  <script src="js/main.js"></script>
+<!--	Footer    -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- partial -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script><script  src="js/script.js"></script>
+</body>
+</html>

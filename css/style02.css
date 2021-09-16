@@ -1,0 +1,36 @@
+.mainnumber{
+	width: 100%;
+	
+}
+.number{
+  margin: auto 0;
+  display: flex;
+float: left;
+  width: 50%;
+  justify-content: space-around;
+}
+.number1{
+	 margin: auto 0;
+  display: flex;
+	flex-wrap: wrap;
+	float: right;
+  width: 50%;
+  justify-content: space-around;
+/*	  height: 100px;*/
+}
+.col {
+  padding: 3em;
+}
+.col .counter-number{
+  line-height: 48px;
+  font-size: 48px;
+  font-weight: bold;
+  color:rgba(116,130,76,1.00);
+}
+.col .counter-title {
+  color: #424242;
+}
+.col .counter-title strong {
+  display: block;
+  font-size: 1.2rem;
+}
